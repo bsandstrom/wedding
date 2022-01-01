@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=The+Nautigal:wght@700&display=swap");
+
+* {
+  background-color: whitesmoke;
+}
+
+#appContent {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  margin: 0;
+  margin-left: 15%;
+  margin-right: 15%;
+  width: 70%;
+  font-family: serif;
+  font-size: 1.5em;
+}
+
+footer {
+  margin-top: auto;
+}
+
+.mainHeader {
+  text-align: center;
+  font-family: "The Nautigal", cursive;
+  font-weight: 2;
+  font-size: 6em;
+  margin: 0px;
+  color: black;
+  display: block;
+}
+
+.headerInfo {
+  text-align: center;
+  margin: 0.2em;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* p {
+  margin: 0.2em;
+} */
+
+.siteNav {
+  /* padding:0px; */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 0;
+  border: none;
+}
+
+.siteNav a:hover {
+  background-color: #ebebeb;
+}
+
+.siteNav a {
+  padding: 0.5em;
+  color: black;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.siteNav .selected {
+  text-decoration: underline;
+}
+
+footer {
+  text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+  .App {
+    margin: 0;
+    width: 100%;
+    font-family: serif;
+    font-size: 1em;
+  }
+
+  .mainHeader {
+    text-align: center;
+    font-family: "The Nautigal", cursive;
+    font-weight: 2;
+    font-size: 2.6em;
+    margin: 0px;
+  }
+}
