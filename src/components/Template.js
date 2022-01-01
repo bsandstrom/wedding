@@ -14,16 +14,17 @@ function Template({ children }) {
 
   return (
     <div id="appContent">
-      <Link class="mainHeader" to="/">
+      <Link className="mainHeader" to="/">
         Brent & Brett
       </Link>
-      <p class="headerInfo">December 18th 2021</p>
-      <p class="headerInfo">Franklin NH</p>
-      <nav class="siteNav">
+      <p className="headerInfo">December 18th 2021</p>
+      <p className="headerInfo">Franklin NH</p>
+      <nav className="siteNav">
         {Object.entries(links).map(([k, v]) => {
           return (
             <Link
-              {...(k === location.pathname ? { class: "selected" } : {})}
+              key={k}
+              {...(k === location.pathname ? { className: "selected" } : {})}
               to={k}
             >
               {v}

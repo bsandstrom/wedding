@@ -5,8 +5,8 @@ import Template from "../components/Template";
 function Home() {
   return (
     <Template>
-      <img alt="" class="fullWidthImg" src={proposal} />
-      <div class="theWedding">
+      <img alt="" className="fullWidthImg" src={proposal} />
+      <div className="theWedding">
         <h2>The Wedding</h2>
         <p>
           Brett and Brent were married in an intimate ceremony on their property
