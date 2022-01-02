@@ -33,7 +33,14 @@ function Template({ children }) {
         })}
       </nav>
       {children}
-      <footer>Website written in React by Brent</footer>
+      <footer>
+        <p>This website is written in React</p>
+        <p>
+          Check out the{" "}
+          <a href="https://github.com/bsandstrom/wedding">source code</a> on my
+          github!
+        </p>
+      </footer>
     </div>
   );
 }

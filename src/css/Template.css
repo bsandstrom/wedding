@@ -68,8 +68,14 @@ a {
   text-decoration: underline;
 }
 
-footer {
+footer p {
   text-align: center;
+  margin: 0;
+  font-size: 0.9em;
+}
+
+footer a {
+  color: #0d70f2;
 }
 
 @media screen and (max-width: 600px) {

@@ -1,4 +1,4 @@
-import proposal from "../proposal2cropped.jpg";
+import proposal from "../images/proposal2cropped.jpg";
 import "../css/Home.css";
 import Template from "../components/Template";
 

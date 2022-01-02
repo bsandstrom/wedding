@@ -1,0 +1,36 @@
+h2 {
+  text-align: center;
+  font-family: "The Nautigal", cursive;
+  font-size: 3em;
+  margin: 0.5em;
+}
+
+#story {
+  /* flex-wrap: wrap; */
+  width: 60%;
+  margin-left: 20%;
+  margin-right: 20%;
+  /* display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-auto-rows: auto;
+  gap: 15px; */
+}
+
+#story img {
+  margin: 0;
+  max-width: 100%;
+}
+
+.spanOne {
+  grid-column: span 1;
+}
+.spanTwo {
+  grid-column: span 2;
+}
+
+@media screen and (max-width: 1000px) {
+  #story {
+    width: 100%;
+    margin: 0px;
+  }
+}
