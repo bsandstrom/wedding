@@ -1,15 +1,17 @@
-
 #photoContainer {
-    display:flex;
-    flex-wrap: wrap;
-    justify-content: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  /* flex-wrap: wrap; */
+  /* justify-content: center; */
+  justify-items: center;
+  /* justify-content: center; */
 }
 
-img {
-    margin: 5px;
+.preview {
+  margin: 5px;
+  max-width: 300px;
 }
 
 #photoContainer img:hover {
-    size: 110%;
-    /* margin:, 2px; */
+  cursor: pointer;
 }
