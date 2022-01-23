@@ -50,7 +50,7 @@ a {
 }
 
 .siteNav a:hover {
-  background-color: #ebebeb;
+  background-color: gainsboro;
 }
 
 .siteNav a {
@@ -62,7 +62,7 @@ a {
 }
 
 .siteNav .selected {
-  text-decoration: underline;
+  background-color: gainsboro;
 }
 
 footer p {
