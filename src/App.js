@@ -9,7 +9,6 @@ function App() {
       <Route path="/" element={<Home />} />
       <Route path="/story" element={<Story />} />
       <Route path="/photos" element={<Photos />} />
-      <Route path="/registry" element={<Home />} />
     </Routes>
   );
 }

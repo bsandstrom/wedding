@@ -46,7 +46,7 @@ function Story() {
         </p>
         <img
           className="spanOne"
-          src={`${process.env.PUBLIC_URL}/images/Story/bought.jpg`}
+          src={`${process.env.PUBLIC_URL}/images/Story/bought_a_house.jpg`}
           alt=""
         />
         <p className="grid-item-5">
@@ -56,7 +56,7 @@ function Story() {
         </p>
         <img
           className="spanOne"
-          src={`${process.env.PUBLIC_URL}/images/Story/proposal.jpg`}
+          src={`${process.env.PUBLIC_URL}/images/Story/proposal2cropped.jpg`}
           alt=""
         />
         <p className="grid-item-6">

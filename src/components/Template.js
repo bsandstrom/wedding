@@ -6,7 +6,6 @@ const links = {
   "/": "Home",
   "/story": "Our Story",
   "/photos": "Photos",
-  "/registry": "Registry",
 };
 
 function Template({ children }) {
