@@ -32,16 +32,13 @@ footer {
 
 .headerInfo {
   text-align: center;
-  margin: 0.2em;
+  margin: 0.1em;
+  font-size: 0.7em;
 }
 
 a {
   text-decoration: none;
 }
-
-/* p {
-  margin: 0.2em;
-} */
 
 .siteNav {
   /* padding:0px; */
@@ -71,7 +68,7 @@ a {
 footer p {
   text-align: center;
   margin: 0;
-  font-size: 0.9em;
+  font-size: 0.6em;
 }
 
 footer a {
@@ -102,5 +99,11 @@ footer a {
   .siteNav {
     flex-direction: column;
     text-align: center;
+  }
+
+  p {
+    font-size: 0.8em;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
   }
 }
