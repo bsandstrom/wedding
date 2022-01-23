@@ -1,11 +1,14 @@
-import proposal from "../images/proposal2cropped.jpg";
 import "../css/Home.css";
 import Template from "../components/Template";
 
 function Home() {
   return (
     <Template>
-      <img alt="" className="fullWidthImg" src={proposal} />
+      <img
+        alt=""
+        className="fullWidthImg"
+        src={`${process.env.PUBLIC_URL}/images/Story/proposal2cropped.jpg`}
+      />
       <div className="theWedding">
         <h2>The Wedding</h2>
         <p>

@@ -9,6 +9,7 @@
     "gm": "^1.23.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
+    "react-images": "^1.2.0-beta.7",
     "react-photo-gallery": "^8.0.0",
     "react-router": "^6.2.1",
     "react-router-dom": "^6.2.1",
@@ -38,5 +39,6 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "devDependencies": {}
 }
