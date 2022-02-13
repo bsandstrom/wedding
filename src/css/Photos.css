@@ -1,17 +1,24 @@
 #photoContainer {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  /* flex-wrap: wrap; */
-  /* justify-content: center; */
-  justify-items: center;
-  /* justify-content: center; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* flex-wrap: wrap; */
+    /* justify-content: center; */
+    justify-items: center;
+    /* justify-content: center; */
 }
 
 .preview {
-  margin: 5px;
-  max-width: 300px;
+    margin: 5px;
+    max-width: 300px;
 }
 
 #photoContainer img:hover {
-  cursor: pointer;
+    cursor: pointer;
+}
+
+h2 {
+    text-align: center;
+    font-family: "The Nautigal", cursive;
+    font-size: 3em;
+    margin: 0.5em;
 }

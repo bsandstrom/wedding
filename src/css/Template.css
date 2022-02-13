@@ -1,109 +1,109 @@
 @import url("https://fonts.googleapis.com/css2?family=The+Nautigal:wght@700&display=swap");
 
 body {
-  background-color: whitesmoke;
+    background-color: mintcream;
 }
 
 #appContent {
-  display: flex;
-  flex-direction: column;
-  height: 100vh;
-  margin: 0;
-  margin-left: 15%;
-  margin-right: 15%;
-  width: 70%;
-  font-family: serif;
-  font-size: 1.5em;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+    margin-left: 15%;
+    margin-right: 15%;
+    width: 70%;
+    font-family: serif;
+    font-size: 1.5em;
 }
 
 footer {
-  margin-top: auto;
+    margin-top: auto;
 }
 
 .mainHeader {
-  text-align: center;
-  font-family: "The Nautigal", cursive;
-  font-weight: 2;
-  font-size: 6em;
-  margin: 0px;
-  color: black;
-  display: block;
-}
-
-.headerInfo {
-  text-align: center;
-  margin: 0.1em;
-  font-size: 0.7em;
-}
-
-a {
-  text-decoration: none;
-}
-
-.siteNav {
-  /* padding:0px; */
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  margin: 0;
-  border: none;
-}
-
-.siteNav a:hover {
-  background-color: gainsboro;
-}
-
-.siteNav a {
-  padding: 0.5em;
-  color: black;
-  font-family: sans-serif;
-  text-transform: uppercase;
-  margin: 0;
-}
-
-.siteNav .selected {
-  background-color: gainsboro;
-}
-
-footer p {
-  text-align: center;
-  margin: 0;
-  font-size: 0.6em;
-}
-
-footer a {
-  color: #0d70f2;
-}
-
-@media screen and (max-width: 600px) {
-  #appContent {
-    margin: 0;
-    width: 100%;
-  }
-
-  .App {
-    margin: 0;
-    width: 100%;
-    font-family: serif;
-    font-size: 1em;
-  }
-
-  .mainHeader {
     text-align: center;
     font-family: "The Nautigal", cursive;
     font-weight: 2;
-    font-size: 2.6em;
+    font-size: 6em;
     margin: 0px;
-  }
+    color: black;
+    display: block;
+}
 
-  .siteNav {
-    flex-direction: column;
+.headerInfo {
     text-align: center;
-  }
+    margin: 0.1em;
+    font-size: 0.7em;
+}
 
-  p {
-    font-size: 0.8em;
-    margin-left: 0.5em;
-    margin-right: 0.5em;
-  }
+a {
+    text-decoration: none;
+}
+
+.siteNav {
+    /* padding:0px; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0;
+    border: none;
+}
+
+.siteNav a:hover {
+    background-color: gainsboro;
+}
+
+.siteNav a {
+    padding: 0.5em;
+    color: black;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.siteNav .selected {
+    background-color: gainsboro;
+}
+
+footer p {
+    text-align: center;
+    margin: 0;
+    font-size: 0.6em;
+}
+
+footer a {
+    color: #0d70f2;
+}
+
+@media screen and (max-width: 600px) {
+    #appContent {
+        margin: 0;
+        width: 100%;
+    }
+
+    .App {
+        margin: 0;
+        width: 100%;
+        font-family: serif;
+        font-size: 1em;
+    }
+
+    .mainHeader {
+        text-align: center;
+        font-family: "The Nautigal", cursive;
+        font-weight: 2;
+        font-size: 2.6em;
+        margin: 0px;
+    }
+
+    .siteNav {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    p {
+        font-size: 0.8em;
+        margin-left: 0.5em;
+        margin-right: 0.5em;
+    }
 }
